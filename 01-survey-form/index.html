@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Programming Languages Survey</title>
+  </head>
+  <body>
+    <h1 id="title">Programming Languages Survey</h1>
+    <p id="description">Thank you for taking the time to answer this survey</p>
+    <form id="survey-form">
+      <label for="name" id="name-label">Name</label>
+      <input type="text" id="name" placeholder="Enter your name" required /><br />
+      <label for="email" id="email-label">Email</label>
+      <input type="email" id="email" placeholder="Enter your email" required />
+      <label for="number" id="number-label">How many years of programming experience do you have?</label>
+      <input type="number" id="number" placeholder="Enter your years of experience" min="0" max="50"/>
+      <label for="dropdown">What is your favorite programming language?</label>
+      <select id="dropdown">
+        <option value="">Select your favorite programming language</option>
+        <option value="python">Python</option>
+        <option value="javascript">JavaScript</option>
+        <option value="java">Java</option>
+        <option value="csharp">C#</option>
+        <option value="cpp">C++</option>
+        <option value="php">Php</option>
+        <option value="other">Other</option>
+      </select>
+      <label>How did you learn programming?</label>
+      <div class="form-option">
+        <input
+          type="radio"
+          id="self-taught"
+          name="learning-method"
+          value="self-taught"
+        />
+        <label for="self-taught">Self-taught</label>
+      </div>
+
+      <div class="form-option">
+        <input type="radio" id="school" name="learning-method" value="School/University" />
+        <label for="school">School/University</label>
+      </div>
+
+      <div class="form-option">
+        <input type="radio" id="bootcamp" name="learning-method" value="Bootcamp" />
+        <label for="bootcamp">Bootcamp</label>
+      </div>
+
+      <div class="form-option">
+        <input type="radio" id="online" name="learning-method" value="Online Courses"  />
+        <label for="online">Online Courses</label>
+      </div>
+
+      <div class="form-option">
+        <input type="radio" id="other" name="learning-method" value="Other" />
+        <label for="other">Other</label>
+      </div>
+
+      <label>Which languages do you use regularly?</label>
+      <div class="form-option">
+        <input type="checkbox" name="language-used" value="Python" id="python" />
+        <label for="python">Python</label>
+      </div>
+
+      <div class="form-option">
+        <input type="checkbox" name="language-used" value="JavaScript" id="js"/>
+        <label for="js">JavaScript</label>
+      </div>
+
+      <div class="form-option">
+        <input type="checkbox" name="language-used" value="Java" id="java" />
+        <label for="java">Java</label>
+      </div>
+
+      <div class="form-option">
+        <input type="checkbox" name="language-used" value="C#" id="cshap" />
+        <label for="cshap">C#</label>
+      </div>
+
+      <div class="form-option">
+        <input type="checkbox" name="language-used" value="C++" id="cpp" />
+        <label for="cpp">C++</label>
+      </div>
+
+      <div class="form-option">
+        <input type="checkbox" name="language-used" value="Php" id="php" />
+        <label for="php">Php</label>
+      </div>
+
+      <div class="form-option">
+        <input
+          type="checkbox"
+          name="language-used"
+          value="Other"
+          id="other-lang"
+        />
+        <label for="other-lang">Other</label>
+      </div>
+
+      <label for="comments">Any comments or suggestions?</label>
+      <textarea id="comments" rows="5" placeholder="Write something...."></textarea>
+      <button type="submit" id="submit">Submit</button>
+    </form>
+  </body>
+</html>
