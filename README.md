@@ -10,7 +10,7 @@ Each project is built with HTML and CSS, applying responsive design principles.
 ## 📁 Projects
 
 - [x] Project 1 – [Survey Form](./01-survey-form/index.html)
-- [x] Project 2 – Tribute Page
+- [x] Project 2 – [Tribute Page](./02-tribute-page/index.html)
 - [ ] Project 3 – Product Landing Page
 - [ ] Project 4 – Technical Documentation Page
 - [ ] Project 5 – Personal Portfolio Webpage
