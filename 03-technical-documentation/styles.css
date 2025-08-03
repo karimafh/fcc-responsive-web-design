@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, Tahoma, sans-serif;
+  line-height: 1.5;
+  background-color: #f4f4f4;
+}
+
+#main-header {
+  height: 100%;
+  min-width: 280px;
+  max-width: 300px;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+#navbar {
+  height: 100%;
+  border-right: solid 2px #333;
+}
+
+#navbar header > h1 {
+  font-size: 1.6rem;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+#navbar .nav-links {
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 90%;
+}
+#navbar .nav-links a {
+  display: block;
+  text-align: left;
+  padding: .8rem 1rem .8rem 2rem;
+  cursor: pointer;
+  color: #302f2f;
+  border: solid 1px #ddd;
+  text-decoration: none;
+}
+#navbar .nav-links a:hover {
+  background-color: #ddd;
+}
+#main-doc {
+  position: absolute;
+  margin-left: 320px;
+  padding: 2rem 1rem;
+}
+
+#main-doc .main-section > header {
+  font-size: 2rem;
+  padding: 1rem 0;
+}
+
+#main-doc .main-section .main-article {
+  padding-left: 1.5rem;
+  margin-bottom: .5rem;
+  color: #333;
+}
+
+#main-doc .main-section .main-article p {
+  margin-bottom: 1rem;
+}
+
+#main-doc .main-section .main-article ul {
+  margin: 1.3rem 0 0 1.2rem;
+}
+
+#main-doc .main-section .main-article ul li {
+  margin-bottom: 1rem;
+}
+
+#main-doc .main-section .main-article code {
+  display: block;
+  padding: 1.5rem;
+  text-align: left;
+  background-color: #ddd;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1rem;
+}
+
+#main-doc .main-section:last-child .main-article ul {
+  margin: .5rem 0 1.5rem 3rem;
+}
+
+@media (max-width: 600px) {
+  #main-header {
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    max-height: none;
+    border-bottom: solid 2px #333;
+    z-index: 1;
+    background-color: white;
+    border-radius: 0 0 8px 8px;
+  }
+
+  #navbar {
+    width: 100%;
+    height: auto;
+    border-right: none;
+
+  }
+
+  #main-doc {
+    position: relative;
+    margin-left: 0;
+    padding: 2rem 1rem;
+    margin-top: 0;
+  }
+  #main-doc .main-section .main-article code {
+    margin-right: 8px;
+  }
+}
