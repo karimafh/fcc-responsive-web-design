@@ -12,7 +12,7 @@ Each project is built with HTML and CSS, applying responsive design principles.
 - [x] Project 1 – [Survey Form](./01-survey-form/index.html)
 - [x] Project 2 – [Tribute Page](./02-tribute-page/index.html)
 - [x] Project 3 – [Technical Documentation Page](./03-technical-documentation/index.html)
-- [ ] Project 4 – Product Landing Page
+- [x] Project 4 – [Product Landing Page](./04-product-landing-page/index.html)
 - [ ] Project 5 – Personal Portfolio Webpage
 
 ---
